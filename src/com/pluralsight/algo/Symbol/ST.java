@@ -33,8 +33,5 @@ public class ST<Key extends Comparable<Key>, Value> {
         return ht.size();
     }
 
-    /*public Iterable<Key> keys() {
-        //return ht.
-    }*/
 
 }
