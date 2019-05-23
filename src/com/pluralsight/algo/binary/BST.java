@@ -61,7 +61,7 @@ public class BST<Key extends Comparable<Key>, Value> {
 
     public void put(Key key, Value value) {
 
-        put(root, key, value);
+        root = put(root, key, value);
     }
 
     private int size(Node x) {
