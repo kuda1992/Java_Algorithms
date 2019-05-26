@@ -70,7 +70,6 @@ public class FastCollinearPoints {
         }
     }
 
-
     private void checkDuplicatedEntries(Point[] points) {
         for (int i = 0; i < points.length - 1; i++) {
             if (points[i].compareTo(points[i + 1]) == 0) {
