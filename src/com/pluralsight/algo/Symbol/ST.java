@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class ST<Key extends Comparable<Key>, Value> {
 
     HashMap<Key, Value> ht;
+
     public ST() {
         ht = new HashMap<>();
     }
